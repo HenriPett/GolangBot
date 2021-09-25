@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	token := "ODkxMzE4NTIwNzU4MDM0NDMy.YU8nDw.p_xAWh-27n9L0uPlINcarmH0kqM"
+	token := "TOKEN that you get on Discord API"
 	dg, err := discordgo.New("Bot " + token)
 	if err != nil {
 		log.Fatalln(err)
